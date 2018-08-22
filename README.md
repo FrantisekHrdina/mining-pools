@@ -14,3 +14,6 @@ https://raw.githubusercontent.com/andoniaf/mining-pools-list/master/mining-pools
 https://raw.githubusercontent.com/andoniaf/mining-pools-list/master/mining-pools_IP.lst<br>
 https://raw.githubusercontent.com/antoinet/cryptoioc/master/pools.csv<br>
 
+## Contact
+If you have any sources of mining pools and want to contribute, please contact me on franta.hrdina@gmail.com
+

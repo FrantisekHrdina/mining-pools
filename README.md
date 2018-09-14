@@ -1,16 +1,22 @@
 # mining-pools
 List of mining pools collected from different sources
 
+## Running script
+
+python3 mining_pools_collector.py
+
 ## Current sources
 
-### Repos
+### Repos, projects, ...
 
 https://github.com/andoniaf/mining-pools-list<br>
 https://github.com/antoinet/cryptoioc<br>
+https://cryptoioc.ch/<br>
 
 ### Raw
 
 https://raw.githubusercontent.com/andoniaf/mining-pools-list/master/mining-pools.lst<br>
 https://raw.githubusercontent.com/andoniaf/mining-pools-list/master/mining-pools_IP.lst<br>
-https://raw.githubusercontent.com/antoinet/cryptoioc/master/pools.csv<br>
+https://cryptoioc.ch/downloads/csv<br>
+https://isc.sans.edu/api/threatlist/miner<br>
 

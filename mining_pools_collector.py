@@ -13,6 +13,9 @@ class Entry():
         self.address = ''
         self.source = ''
 
+    def __eq__(self, other):
+        return self.address == other.address and self.source == other.source
+
 
 def load_from_cryptoioc_ch(name_pools, ip_pools):
     """
@@ -41,8 +44,11 @@ def load_from_cryptoioc_ch(name_pools, ip_pools):
             tmp_pool_ip.address = row[1]
             tmp_pool_ip.source = POOLS_SOURCE
 
-            name_pools.append(tmp_pool_name)
-            ip_pools.append(tmp_pool_ip)
+            if tmp_pool_name not in name_pools:
+                name_pools.append(tmp_pool_name)
+
+            if tmp_pool_ip not in ip_pools:
+                ip_pools.append(tmp_pool_ip)
 
     os.system('rm /tmp/csv')
 

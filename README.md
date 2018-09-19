@@ -3,7 +3,7 @@ List of mining pools collected from different sources
 
 ## Running script
 
-python3 mining_pools_collector.py
+`python3 mining_pools_collector.py`
 
 ## Current sources
 
